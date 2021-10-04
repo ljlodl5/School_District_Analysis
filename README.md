@@ -35,7 +35,7 @@ At a district level removing 9th graders has only a very slight impact (assuming
 
 
 ### **School Summary Impacts**
-The school summary is similar to the district analysis in that there are only neglible changes to the data after appropriate adjustments to NaN occurred.
+The school summary is similar to the district analysis in that there are only negligible changes to the data after appropriate adjustments to NaN occurred.
 
 Exhibit A: The data for the school when all THS students were included (pre-NaN). 
 
@@ -49,6 +49,8 @@ Exhibit B: The data for the school when 9th grade students were removed but tota
 
 Exhibit C: The data for the school district when student count was not adjusted.(post NaN, total student count = 1635). 
 The NaN values reduced math and test scores from the dataset but the full student count erroneously remained, thus the need for coding adjustments and replacement values. 
+The largest impact to the work in this module was the refactoring of NaN impact on a dataset, or merged datasets within a dataframe. If NaN does not eliminate an entire row of data then dependencies can exist which impact final representation of data. 
+In this case there is a 30% impact for THS if the total count of students was not refactored to eliminate 9th graders within the code. 
 
 #### ![School Summary adjusted NaN but with incorrect total student count](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/Thomas%20High%20School%20Scores%20.png)
 
