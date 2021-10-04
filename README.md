@@ -105,11 +105,11 @@ Summarize four changes in the updated school district analysis after reading and
 
 * **Calculation adjustments to percentages that were dependent on adjusted THS count (10th-12th graders)**
 
-* **Data replacements (%reading, %math, %overall) were required to the dataframe to include the calculations with adjusted total count (10th-12th graders)**
+* **Data replacements to the dataframe (%reading, %math, %overall) were required after adjusting for total count (10th-12th graders only)**
    	 
 ### **Final Synopsis**
 The high performance of Thomas High is aligned with other charter schools in the district. Removal of the grade had little impact to overall percentages in the district and at the THS school level between grades. 
-The largest impact to the dataset was ensuring that the removal of a grade (via NaN) was carefully assessed within the code to ensure the dataframe(s) was reflective of proper data.  
+The largest impact to the dataset was ensuring that the removal of a grade (via NaN) was carefully assessed within the code to ensure the dataframe(s) was reflective of proper data.   
 	
 
 #### PyChallenge located in GitHub
