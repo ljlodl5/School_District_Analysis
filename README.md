@@ -10,30 +10,32 @@ In addition, change to the dataset to exclude 9th graders (aka: NaN) will have a
 ## **Results**
 ### **District Summary Impacts** 
 
-The district student body is ~39k students and Thomas High School 9th graders comprises of 461 students. 
+The district student count = ~39k students; the Thomas High School 9th grade count= 461 students. 
 
-On the surface, the 9th grade averages for THS are ~83% for both reading and math respectively which aligns with the 83% average for 10-12th grades at the same school. 
-In addition, taking a look at the entire district (including the THS 9th graders) the averages are extremely close (within tenths of a percentage) to when the students are excluded.
-In order to impact the district-level average math and reading scores the tests results would have to be considerably overstated off the mean (large amount out of outliers), or could contain more inconspicous changes between the 69 vs.70 threshold thereby understating the % of pass reading and math scores.   
+THS 9th graders score on average ~83% for both reading and math, respectively. This aligns with the 83% average for 10-12th graders at THS. 
+Taking a look at the entire district (including the THS 9th graders) the averages are extremely close (within tenths of a percentage) regardless whether the THS 9th graders are excluded or included. 
+In order to impact district-level average math and reading scores the test results would have to be considerably overstated off the mean (i.e large amount out of outliers), or could contain more inconspicous changes between the 69 vs.70 threshold thereby understating the % of pass reading and math scores.   
+Based on the support below it appears that neither exists within the datasets provided.
+
 
 #### ![At a Glance](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/Comparison%20NaN%20before%20and%20after%20code%20adjustments.png)
 
 
-At a district level the end result of removing 9th graders is very slight (assuming the dataset is adjusted appropriately for NaN impacts) 
+At a district level removing 9th graders has only a very slight impact (assuming the dataset is adjusted appropriately for NaN impacts) 
 
-Exhibit A: Pre-Adjustment
+**Exhibit A: Pre-Adjustment**
 
 #### ![District Summary pre-NaN](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/School%20District%20Summary%20Pre-Adjusted.png)
 
 
-Exhibit B: Post-Adjustment  
+**Exhibit B: Post-Adjustment**  
 
 #### ![District Summary post-NaN](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/School%20District%20Summary%20Adjusted.png)
 
 
 
 ### **School Summary Impacts**
-The school summary is similar to the district analysis in that there are only neglible changes to the data existed when the appropriate adjustments occured to NaN for the THS 9th graders.
+The school summary is similar to the district analysis in that there are only neglible changes to the data after appropriate adjustments occur post 9th grade NaN was adjustment.
 
 Exhibit A: The data for the school when all THS students were included (pre-NaN). 
 
@@ -72,7 +74,7 @@ Spending for THS is $638 per student which is above district average. THS perfor
 
 * **Scores by school size**
 		  
-School size is close is on the low-end of district average with a student body of 1635 students. THS performs well and is a top five school regardless of whether 9th graders are included/excluded.  
+School size is close to the low-end of the district average with a student body of 1635 students. THS performs well and is a top five school regardless of whether 9th graders are included/excluded.  
 
 
 #### ![Scores By School Size](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/School%20Size%20-Bin%20and%20Scores%20and%20Percentages.png)
@@ -103,7 +105,7 @@ Summarize four changes in the updated school district analysis after reading and
 
 * **Data replacements (%reading, %math, %overall) were required to the dataframe to include the calculations with adjusted total count (10th-12th graders)**
    	 
-### Final Synopsis
+### **Final Synopsis**
 The high performance of Thomas High is aligned with other charter schools in the district. Removal of the grade had little impact to overall percentages in the district and at the THS school level between grades. 
 The largest impact to the dataset was ensuring that the removal of a grade (via NaN) was carefully assessed within the code to ensure the dataframe(s) was reflective of proper data.  
 	
