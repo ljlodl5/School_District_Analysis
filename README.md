@@ -35,7 +35,7 @@ At a district level removing 9th graders has only a very slight impact (assuming
 
 
 ### **School Summary Impacts**
-The school summary is similar to the district analysis in that there are only neglible changes to the data after appropriate adjustments occur post 9th grade NaN was adjustment.
+The school summary is similar to the district analysis in that there are only neglible changes to the data after appropriate adjustments to NaN occurred.
 
 Exhibit A: The data for the school when all THS students were included (pre-NaN). 
 
