@@ -69,14 +69,14 @@ The average 9th grade reading and math scores and percentages were already in li
 
 * **Scores by school spending**
 		  
-Spending for THS is $638 per student which is above district average. THS performs well and is a top five school regardless whether 9th graders are included/excluded. 
+Spending for THS is $638 per student which is above district average. THS performs well and is a top five school regardless whether 9th graders are included/excluded. (assuming NaN is adjusted to include appropriate counts)
 		   
 #### ![Scores By School Spending](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/Charter%20School%20Success.png)
 
 
 * **Scores by school size**
 		  
-School size is close to the low-end of the district average with a student body of 1635 students. THS performs well and is a top five school regardless of whether 9th graders are included/excluded.  
+School size is close to the low-end of the district average with a student body of 1635 students. THS performs well and is a top five school regardless of whether 9th graders are included/excluded (assuming NaN is adjusted to include appropriate counts).  
 
 
 #### ![Scores By School Size](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/School%20Size%20-Bin%20and%20Scores%20and%20Percentages.png)
@@ -84,7 +84,7 @@ School size is close to the low-end of the district average with a student body 
 
 * **Scores by school type**
 		  
-THS like most Charter schools in the district tend to do exceptionally well (top five schools) while district schools remain in the bottom 5. Removal of 9th grade scores have no bearing on the result 
+THS like most Charter schools in the district tend to do exceptionally well (top five schools) while district schools remain in the bottom 5. Removal of 9th grade scores have no bearing on the result (assuming NaN is adjusted to include appropriate counts)
 
 
 #### ![Scores By School Type](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/District%20vs%20Charter%20School.png)
