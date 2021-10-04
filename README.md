@@ -53,30 +53,34 @@ The NaN values reduced math and test scores from the dataset but the full studen
 
 ### Elimination of Thomas High School 9th grade scores
 Impact of replacing the ninth graders’ math and reading scores and affect on Thomas High School’s performance relative to the other schools: 
-		* **Math and reading scores by grade**
-		  There was very little impact other than one less cohort to consider for the school. 
-		  The average 9th grade reading and math scores and percentages were already in line with the other grades (displayed above). The scores were averaged among three grades instead of four but this had negligible impact 
+
+* **Math and reading scores by grade**
+There was very little impact other than one less cohort to consider for the school. 
+The average 9th grade reading and math scores and percentages were already in line with the other grades (displayed above). The scores were averaged among three grades instead of four but this had negligible impact 
 			
 ### ![Math Grades](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/Math%209th%20grade%20average.png)
 
 ### ![Reading Grades](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/Reading%209th%20grade%20average.png)
 
 
-		* **Scores by school spending**
-		  Spending for THS is $638 per student which is above district average. THS performs well and is a top five school regardless whether 9th graders are included/excluded. 
+* **Scores by school spending**
+		  
+Spending for THS is $638 per student which is above district average. THS performs well and is a top five school regardless whether 9th graders are included/excluded. 
 		   
 #### ![Scores By School Spending](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/Charter%20School%20Success.png)
 
 
-		* **Scores by school size**
-		  School size is close is on the low-end of district average with a student body of 1635 students. THS performs well and is a top five school regardless of whether 9th graders are included/excluded.  
+* **Scores by school size**
+		  
+School size is close is on the low-end of district average with a student body of 1635 students. THS performs well and is a top five school regardless of whether 9th graders are included/excluded.  
 
 
 #### ![Scores By School Size](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/School%20Size%20-Bin%20and%20Scores%20and%20Percentages.png)
 
 
-		* **Scores by school type**
-		  THS like most Charter schools in the district tend to do exceptionally well (top five schools) while district schools remain in the bottom 5. Removal of 9th grade scores have no bearing on the result 
+* **Scores by school type**
+		  
+THS like most Charter schools in the district tend to do exceptionally well (top five schools) while district schools remain in the bottom 5. Removal of 9th grade scores have no bearing on the result 
 
 
 #### ![Scores By School Type](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/District%20vs%20Charter%20School.png)
@@ -89,15 +93,15 @@ Impact of replacing the ninth graders’ math and reading scores and affect on T
 
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
    	
-	* **There were neglible changes to average values (tenths of a percentage point) when the THS 9th grade total student count was removed. See above**  
+* **There were neglible changes to average values (tenths of a percentage point) when the THS 9th grade total student count was removed. See above**  
 	  
   	 Note: There were considerable changes to fields dependent on total counts because NaN did not remove the entire row from the dataset. Student count adjustment is a dependency for accurate percentages. 
 
-	* **The need to adjust the count of students at THS from 1635 to 1174 (461 students are 9th graders). NaN removed data from inclusion into total test scores/averages, but the student count remained in the dataset thereby deflating overall THS percentages.** 
+* **The need to adjust the count of students at THS from 1635 to 1174 (461 students are 9th graders). NaN removed data from inclusion into total test scores/averages, but the student count remained in the dataset thereby deflating overall THS percentages.** 
 
-	* **Calculation adjustments to percentages that were dependent on adjusted THS count (10th-12th graders)**
+* **Calculation adjustments to percentages that were dependent on adjusted THS count (10th-12th graders)**
 
-	* **Data replacements (%reading, %math, %overall) were required to the dataframe to include the calculations with adjusted total count (10th-12th graders)**
+* **Data replacements (%reading, %math, %overall) were required to the dataframe to include the calculations with adjusted total count (10th-12th graders)**
    	 
 ### Final Synopsis
 The high performance of Thomas High is aligned with other charter schools in the district. Removal of the grade had little impact to overall percentages in the district and at the THS school level between grades. 
