@@ -3,7 +3,7 @@ Data analysis of school district testing
 
 ## **Overview of the school district analysis**
 
-Utilizing two sample school district datasets; 1) student count/budget and 2)student reading and math test results, the goal of this assignment is to present the impact of the removal of a subset of potentially dishonest scores reported within the Thomas High School 9th grade cohort.  
+Utilizing two sample school district datasets; 1) school size/budget and 2) student reading and math test results, the goal of this assignment is to present the impact of the removal of a subset of potentially dishonest scores reported within the Thomas High School 9th grade cohort.  
 By excluding THS 9th graders from the original report, the district will ascertain the level of impact to the district's student-body success in math and reading and determine if refactored decisions are now needed to support student success.
 In addition, change to the dataset to exclude 9th graders (aka: NaN) will have an impact to calculations and it is important to ensure the data presented is accurate.   
 
