@@ -50,7 +50,7 @@ Exhibit B: The data for the school when 9th grade students were removed but tota
 Exhibit C: The data for the school district when student count was not adjusted.(post NaN, total student count = 1635). 
 The NaN values reduced math and test scores from the dataset but the full student count erroneously remained, thus the need for coding adjustments and replacement values. 
 
-#### ![School Summary adjusted NaN but with incorrect total student count](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/PreAdjusted%20THS.png)
+#### ![School Summary adjusted NaN but with incorrect total student count](https://github.com/ljlodl5/School_District_Analysis/blob/main/Resources/Thomas%20High%20School%20Scores%20.png)
 
 
 ### Elimination of Thomas High School 9th grade scores
